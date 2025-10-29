@@ -91,7 +91,9 @@ export default function Hero() {
                     AC
                   </div>
                   <div className="text-slate-300 text-sm px-6">
-                    [Upload professional portrait here]
+                    <img
+                      src="/WhatsApp Image 2025-10-29 at 12.52.57.jpeg"
+                      />
                   </div>
                 </div>
               </div>

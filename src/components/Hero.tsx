@@ -47,7 +47,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="../public/AbhishekClinton_Resume_____.pdf"
                 className="group px-8 py-4 bg-gradient-to-r from-teal-500 to-violet-500 text-white rounded-lg font-semibold hover:shadow-xl hover:shadow-teal-500/20 transition-all duration-300 hover:scale-105 flex items-center gap-2"
               >
                 <Download className="w-5 h-5 group-hover:animate-bounce" />

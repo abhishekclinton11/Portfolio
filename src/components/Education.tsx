@@ -5,8 +5,8 @@ const education = [
     degree: 'Master of Science in Digital Marketing & Media',
     school: 'Yeshiva University',
     location: 'New York, USA',
-    period: 'Expected May 2025',
-    courses: ['Consumer Analytics', 'Brand Strategy', 'Digital Storytelling', 'Martech Systems'],
+    period: 'Graduated May 2025',
+    courses: ['Consumer Analytics', 'Predictive Analytics','Marketing Analytics','Web Analytics & SEO','Marketing With AI','Market Research','Brand Strategy', 'Digital Storytelling', 'Martech Systems'],
     icon: GraduationCap,
   },
   {

@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 md:p-12 hover:border-teal-500/30 transition-all duration-300">
           <p className="text-lg md:text-xl text-slate-300 leading-relaxed mb-8">
-            I'm a digital marketing strategist passionate about blending <span className="text-teal-400 font-semibold">data</span>, <span className="text-violet-400 font-semibold">storytelling</span>, and <span className="text-blue-400 font-semibold">technology</span> to shape how brands connect with audiences. Currently pursuing my M.S. in Digital Marketing and Media at Yeshiva University, I bring cross-functional experience in go-to-market strategy, performance marketing, and analytics-driven campaign execution across SaaS, e-commerce, and B2B analytics sectors.
+            I'm a digital marketing strategist passionate about blending <span className="text-teal-400 font-semibold">data</span>, <span className="text-violet-400 font-semibold">storytelling</span>, and <span className="text-blue-400 font-semibold">technology</span> to shape how brands connect with audiences. Pursued my M.S. in Digital Marketing and Media at Yeshiva University, I bring cross-functional experience in go-to-market strategy, performance marketing, and analytics-driven campaign execution across SaaS, e-commerce, and B2B analytics sectors.
           </p>
 
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 rounded-xl p-6 border border-white/5 mb-8">

@@ -64,7 +64,7 @@ export default function Hero() {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/abhishek-clinton/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white/5 backdrop-blur-sm border border-white/10 text-white rounded-lg font-semibold hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2"

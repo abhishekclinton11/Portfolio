@@ -7,6 +7,7 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen relative flex items-center justify-center px-6 py-20 overflow-hidden">
+      {/* Background gradients and effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-violet-900/20 to-slate-900/20"></div>
 
       <div className="absolute inset-0 opacity-10">
@@ -14,13 +15,17 @@ export default function Hero() {
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-violet-500 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
-      <div className="absolute inset-0 opacity-5" style={{
-        backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px),
-                         repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px)`
-      }}></div>
+      <div
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px),
+                           repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px)`,
+        }}
+      ></div>
 
       <div className="relative z-10 max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* LEFT SECTION */}
           <div className="order-2 lg:order-1 space-y-8">
             <div className="space-y-4">
               <div className="inline-block">
@@ -45,7 +50,9 @@ export default function Hero() {
               </p>
             </div>
 
+            {/* ACTION BUTTONS */}
             <div className="flex flex-wrap gap-4">
+              {/* ✅ Download Resume */}
               <a
                 href={`${import.meta.env.BASE_URL}Resume.pdf`}
                 download
@@ -55,6 +62,7 @@ export default function Hero() {
                 Download Resume
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com"
                 target="_blank"
@@ -66,6 +74,7 @@ export default function Hero() {
               </a>
             </div>
 
+            {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/10">
               <div>
                 <div className="text-3xl font-bold text-teal-400">3+</div>
@@ -82,20 +91,24 @@ export default function Hero() {
             </div>
           </div>
 
+          {/* RIGHT SECTION (PROFILE) */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500/30 to-violet-500/30 rounded-3xl blur-3xl"></div>
 
               <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden border-4 border-white/10 backdrop-blur-sm bg-gradient-to-br from-slate-800/50 to-slate-900/50 flex items-center justify-center">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-teal-400 to-violet-400 flex items-center justify-center text-6xl font-bold text-white">
+                  
+                  {/* ✅ Corrected and Enlarged Profile Image */}
+                  <div className="mx-auto rounded-full overflow-hidden border-4 border-teal-400 shadow-lg shadow-teal-500/20 w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 transition-transform duration-300 hover:scale-105">
                     <img
                       src={`${import.meta.env.BASE_URL}Profile.jpeg`}
                       alt="Abhishek Clinton"
                       className="object-cover w-full h-full"
                     />
                   </div>
-                  <div className="text-slate-300 text-sm px-6">
+
+                  <div className="text-slate-300 text-base md:text-lg px-6 mt-4 font-medium">
                     Based in New Jersey, USA
                   </div>
                 </div>
@@ -112,6 +125,7 @@ export default function Hero() {
         </div>
       </div>
 
+      {/* Scroll down button */}
       <button
         onClick={scrollToAbout}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 hover:text-white transition-colors animate-bounce"

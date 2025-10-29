@@ -16,13 +16,6 @@ const projects = [
     color: 'violet',
   },
   {
-    title: 'GA4 & Looker Dashboards',
-    description: 'Real-time KPI insights enabling data-informed decision making across teams',
-    metric: 'Real-time',
-    icon: BarChart3,
-    color: 'blue',
-  },
-  {
     title: 'Tesla Brand Audit',
     description: 'Gen Z engagement strategy combining social listening and trend analysis',
     metric: 'Gen Z',

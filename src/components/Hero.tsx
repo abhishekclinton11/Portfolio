@@ -96,9 +96,7 @@ export default function Hero() {
                     />
                   </div>
                   <div className="text-slate-300 text-sm px-6">
-                    <img
-                      Based in New Jersey, USA
-                      />
+                    Based in New Jersey, USA
                   </div>
                 </div>
               </div>

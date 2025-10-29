@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/abhishek-clinton/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl hover:bg-white/10 hover:border-blue-500/30 transition-all duration-300 group"

@@ -47,7 +47,8 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="../public/AbhishekClinton_Resume_____.pdf"
+                href={`${import.meta.env.BASE_URL}Resume.pdf`}
+                download
                 className="group px-8 py-4 bg-gradient-to-r from-teal-500 to-violet-500 text-white rounded-lg font-semibold hover:shadow-xl hover:shadow-teal-500/20 transition-all duration-300 hover:scale-105 flex items-center gap-2"
               >
                 <Download className="w-5 h-5 group-hover:animate-bounce" />
@@ -88,11 +89,15 @@ export default function Hero() {
               <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden border-4 border-white/10 backdrop-blur-sm bg-gradient-to-br from-slate-800/50 to-slate-900/50 flex items-center justify-center">
                 <div className="text-center space-y-4">
                   <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-teal-400 to-violet-400 flex items-center justify-center text-6xl font-bold text-white">
-                    AC
+                    <img
+                      src={`${import.meta.env.BASE_URL}Profile.jpeg`}
+                      alt="Abhishek Clinton"
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                   <div className="text-slate-300 text-sm px-6">
                     <img
-                      src="/WhatsApp Image 2025-10-29 at 12.52.57.jpeg"
+                      Based in New Jersey, USA
                       />
                   </div>
                 </div>

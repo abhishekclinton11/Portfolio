@@ -85,7 +85,7 @@ export default function Hero() {
                 <div className="text-sm text-slate-400 mt-1">Avg Conversion Lift</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-blue-400">$10K+</div>
+                <div className="text-3xl font-bold text-blue-400">$100K+</div>
                 <div className="text-sm text-slate-400 mt-1">Ad Spend Managed</div>
               </div>
             </div>
